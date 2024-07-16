@@ -10,7 +10,7 @@ const API_URL = 'https://api.openweathermap.org/data/2.5/weather';
 weatherForm.addEventListener('submit', async function(event) {
     event.preventDefault();
     
-    const city = cityInput.value.trim();
+    const city = cityInput.value;
 
   
     
